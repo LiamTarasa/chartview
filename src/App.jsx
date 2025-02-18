@@ -7,7 +7,7 @@ function App() {
   }
 
   return (
-    <div className='flex flex-col w-screen h-[600px] rounded-xl'>
+    <div className='flex flex-col w-screen h-[1000px] rounded-xl'>
       <iframe
         id='tv-iframe'
         width='100%'
@@ -17,12 +17,14 @@ function App() {
         allowfullscreen={true}
       ></iframe>
 
-      {/* <iframe
+      <div className='h-4' />
+
+      <iframe
         className="w-full h-full"
         src={`https://www.geckoterminal.com/eth/pools/0xa3c2076eb97d573cc8842f1db1ecdf7b6f77ba27?embed=1&info=0&swaps=0&grayscale=0&light_chart=0`}
         allow="clipboard-write"
         allowfullscreen>
-      </iframe> */}
+      </iframe>
     </div >
   )
 }
