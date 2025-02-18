@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 This project show chartviews that are from birdeye and coingecko.
 
-You can check this page in https://chartview.cryptosharkhub.com.
+You can check this page in https://chartview.cryptosharkhub.com & https://chartview-nine.vercel.app/.
